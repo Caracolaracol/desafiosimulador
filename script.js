@@ -5,9 +5,19 @@
 
 // Mi desafío es el siguiente: Se privatizó el centro pokemon, ahora curar a tus pokemón tiene un costo, se pedirá al usuario cuántos pokemones tiene, de que nivel son y se calculará el valor de la cura.
 
-alert("Se privatizó el centro pokemon, ahora curar a tus pokemón tiene un costo!") // Actualmente el valor está a 2 dólares el HP, más un costo base de 10 dólares por pokemón.
+alert("Se privatizó el centro pokemon, ahora curar a tus pokemón tiene un costo! (10 dolares por pokemon, 2 dolares por HP recuperado)") // Actualmente el valor está a 2 dólares el HP, más un costo base de 10 dólares por pokemón.
 
-const numero = parseFloat(prompt("Ingrese cuántos pokemones tienes"))
+let repetir = true
+
+while(repetir) { // ciclo para ingresar un número válido de pokemon
+    numero = parseFloat(prompt("Ingrese cuántos pokemones tienes"))
+    if (numero > 6 || numero < 1) {
+        alert("Número invalido! recuerda que debieras portar entre 1 a 6 pokemones.")
+    } else {
+        break
+    }
+}
+console.log(numero)
 alert("Ahora ingrese cuánto HP le falta a cada pokemón")
 
 let hp1
@@ -17,7 +27,7 @@ let hp4
 let hp5
 let hp6
 
-switch(numero) {
+switch(numero) { // switch para cada caso de cantidad de pokemon del usuario/entrenador.
     case 6:
         hp1 = prompt("A tu pikachu le falta:")
         hp2 = prompt("a tu eevee le falta:")
@@ -55,7 +65,7 @@ switch(numero) {
         alert("Numero no válido, sólo coloca el numero")
 }
 
-if (isNaN(numero)) {
+if (isNaN(numero) || numero > 6) {
     alert("Inténtalo denuevo")
 } else {
     function calculadorPoke (pokeNumber = 1, dolar = 10) { // funcion para calcular costo base 
@@ -69,8 +79,7 @@ if (isNaN(numero)) {
     const costoHp = calculadorHp(hp1, hp2, hp3, hp4, hp5, hp6)
     
     
-    function sumarCosto(pokeNumber = 1, hpNumber = 0)
-    { // funcion para sumar ambos costos.
+    function sumarCosto(pokeNumber = 1, hpNumber = 0) { // funcion para sumar ambos costos.
         const costoCura = costoBase + costoHp
         return costoCura
     }
