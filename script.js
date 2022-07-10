@@ -13,12 +13,7 @@ while(repetir) { // ciclo para ingresar un número válido de pokemon
 }
 
 //variables vacias creadas
-let hp1
-let hp2
-let hp3
-let hp4
-let hp5
-let hp6
+let hp1, hp2, hp3, hp4, hp5, hp6
 
 let nombre1
 let nivel1
@@ -42,83 +37,83 @@ let posicion6
 //switch para ingresar los datos de cada pokemon
 switch(numero) {
     case 1:
-        nombre1 = prompt("Ingrese cual es tu primer pokemon(tal vez un Pikachu? un Eevee? o cualquier otro 🥰 )")
-        nivel1 = prompt("ingrese el nivel del pokemon")
+        nombre1 = prompt("Ingrese cual es tu primer POKEMON(tal vez un Pikachu? un Eevee? o cualquier otro 🥰 )")
+        nivel1 = prompt("ingrese el NIVEL del pokemon")
         posicion1 = 1
         break
     case 2:
-        nombre1 = prompt("Ingrese cual es tu primer pokemon (tal vez un Pikachu? un Eevee? o cualquier otro 🥰 )")
-        nivel1 = prompt("ingrese el nivel del pokemon")
+        nombre1 = prompt("Ingrese cual es tu primer POKEMON (tal vez un Pikachu? un Eevee? o cualquier otro 🥰 )")
+        nivel1 = prompt("ingrese el NIVEL del pokemon")
         posicion1 = 1
-        nombre2 = prompt("Ingrese cual es tu segundo pokemon")
-        nivel2 = prompt("ingrese el nivel del pokemon")
+        nombre2 = prompt("Ingrese cual es tu segundo POKEMON")
+        nivel2 = prompt("ingrese el NIVEL del pokemon")
         posicion2 = 2
         break
     case 3:
-        nombre1 = prompt("Ingrese cual es tu primer pokemon (tal vez un Pikachu? un Eevee? o cualquier otro 🥰 )")
-        nivel1 = prompt("ingrese el nivel del pokemon")
+        nombre1 = prompt("Ingrese cual es tu primer POKEMON (tal vez un Pikachu? un Eevee? o cualquier otro 🥰 )")
+        nivel1 = prompt("ingrese el NIVEL del pokemon")
         posicion1 = 1
-        nombre2 = prompt("Ingrese cual es tu segundo pokemon")
-        nivel2 = prompt("ingrese el nivel del pokemon")
+        nombre2 = prompt("Ingrese cual es tu segundo POKEMON")
+        nivel2 = prompt("ingrese el NIVEL del pokemon")
         posicion2 = 2
-        nombre3 = prompt("Ingrese cual es tu tercer pokemon")
-        nivel3 = prompt("ingrese el nivel del pokemon")
+        nombre3 = prompt("Ingrese cual es tu tercer POKEMON")
+        nivel3 = prompt("ingrese el NIVEL del pokemon")
         posicion3 = 3
         break
     case 4:
-        nombre1 = prompt("Ingrese cual es tu primer pokemon (tal vez un Pikachu? un Eevee? o cualquier otro 🥰 )")
-        nivel1 = prompt("ingrese el nivel del pokemon")
+        nombre1 = prompt("Ingrese cual es tu primer POKEMON (tal vez un Pikachu? un Eevee? o cualquier otro 🥰 )")
+        nivel1 = prompt("ingrese el NIVEL del pokemon")
         posicion1 = 1
-        nombre2 = prompt("Ingrese cual es tu segundo pokemon")
-        nivel2 = prompt("ingrese el nivel del pokemon")
+        nombre2 = prompt("Ingrese cual es tu segundo POKEMON")
+        nivel2 = prompt("ingrese el NIVEL del pokemon")
         posicion2 = 2
-        nombre3 = prompt("Ingrese cual es tu tercer pokemon")
-        nivel3 = prompt("ingrese el nivel del pokemon")
+        nombre3 = prompt("Ingrese cual es tu tercer POKEMON")
+        nivel3 = prompt("ingrese el NIVEL del pokemon")
         posicion3 = 3
-        nombre4 = prompt("Ingrese cual es tu cuarto pokemon")
-        nivel4 = prompt("ingrese el nivel del pokemon")
+        nombre4 = prompt("Ingrese cual es tu cuarto POKEMON")
+        nivel4 = prompt("ingrese el NIVEL del pokemon")
         posicion3 = 4
         break
     case 5:
-        nombre1 = prompt("Ingrese cual es tu primer pokemon (tal vez un Pikachu? un Eevee? o cualquier otro 🥰 )")
-        nivel1 = prompt("ingrese el nivel del pokemon")
+        nombre1 = prompt("Ingrese cual es tu primer POKEMON (tal vez un Pikachu? un Eevee? o cualquier otro 🥰 )")
+        nivel1 = prompt("ingrese el NIVEL del pokemon")
         posicion1 = 1
-        nombre2 = prompt("Ingrese cual es tu segundo pokemon")
-        nivel2 = prompt("ingrese el nivel del pokemon")
+        nombre2 = prompt("Ingrese cual es tu segundo POKEMON")
+        nivel2 = prompt("ingrese el NIVEL del pokemon")
         posicion2 = 2
-        nombre3 = prompt("Ingrese cual es tu tercer pokemon")
-        nivel3 = prompt("ingrese el nivel del pokemon")
+        nombre3 = prompt("Ingrese cual es tu tercer POKEMON")
+        nivel3 = prompt("ingrese el NIVEL del pokemon")
         posicion3 = 3
-        nombre4 = prompt("Ingrese cual es tu cuarto pokemon")
-        nivel4 = prompt("ingrese el nivel del pokemon")
+        nombre4 = prompt("Ingrese cual es tu cuarto POKEMON")
+        nivel4 = prompt("ingrese el NIVEL del pokemon")
         posicion4 = 4
-        nombre5 = prompt("Ingrese cual es tu quinto pokemon")
-        nivel5 = prompt("ingrese el nivel del pokemon")
+        nombre5 = prompt("Ingrese cual es tu quinto POKEMON")
+        nivel5 = prompt("ingrese el NIVEL del pokemon")
         posicion3 = 5
         break
     case 6:
-        nombre1 = prompt("Ingrese cual es tu primer pokemon (tal vez un Pikachu? un Eevee? o cualquier otro 🥰 )")
-        nivel1 = prompt("ingrese el nivel del pokemon")
+        nombre1 = prompt("Ingrese cual es tu primer POKEMON (tal vez un Pikachu? un Eevee? o cualquier otro 🥰 )")
+        nivel1 = prompt("ingrese el NIVEL del pokemon")
         posicion1 = 1
-        nombre2 = prompt("Ingrese cual es tu segundo pokemon")
-        nivel2 = prompt("ingrese el nivel del pokemon")
+        nombre2 = prompt("Ingrese cual es tu segundo POKEMON")
+        nivel2 = prompt("ingrese el NIVEL del pokemon")
         posicion2 = 2
-        nombre3 = prompt("Ingrese cual es tu tercer pokemon")
-        nivel3 = prompt("ingrese el nivel del pokemon")
+        nombre3 = prompt("Ingrese cual es tu tercer POKEMON")
+        nivel3 = prompt("ingrese el NIVEL del pokemon")
         posicion3 = 3
-        nombre4 = prompt("Ingrese cual es tu cuarto pokemon")
-        nivel4 = prompt("ingrese el nivel del pokemon")
+        nombre4 = prompt("Ingrese cual es tu cuarto POKEMON")
+        nivel4 = prompt("ingrese el NIVEL del pokemon")
         posicion4 = 4
-        nombre5 = prompt("Ingrese cual es tu quinto pokemon")
-        nivel5 = prompt("ingrese el nivel del pokemon")
+        nombre5 = prompt("Ingrese cual es tu quinto POKEMON")
+        nivel5 = prompt("ingrese el NIVEL del pokemon")
         posicion3 = 5
-        nombre6 = prompt("Ingrese cual es tu ultimo pokemon")
-        nivel6 = prompt("ingrese el nivel del pokemon")
+        nombre6 = prompt("Ingrese cual es tu ultimo POKEMON")
+        nivel6 = prompt("ingrese el NIVEL del pokemon")
         posicion6 = 6
         break
 }
 
-// clase pokemon, tres elementos
+// clase pokemon, tres elementos 
 class Pokemon {
     constructor(nombre, nivel, posicion){
         this.nombre = nombre
@@ -134,8 +129,24 @@ const pokemon4 = new Pokemon(nombre4, nivel4, posicion4)
 const pokemon5 = new Pokemon(nombre5, nivel5, posicion5)
 const pokemon6 = new Pokemon(nombre6, nivel6, posicion6)
 
-const pokemones = [pokemon1, pokemon2, pokemon3, pokemon4, pokemon5, pokemon6]
+const pokemones = [pokemon1]
 
+if(numero === 2) {
+    pokemones.push(pokemon2)
+}
+if(numero === 3) {
+    pokemones.push(pokemon2, pokemon3)
+}
+if(numero === 4) {
+    pokemones.push(pokemon2, pokemon3, pokemon4)
+}
+if(numero === 5) {
+    pokemones.push(pokemon2, pokemon3, pokemon4, pokemon5)
+}
+if(numero === 6) {
+    pokemones.push(pokemon2, pokemon3, pokemon4, pokemon5, pokemon6)
+}
+console.log(pokemones)
 
 alert("Ahora ingrese cuánto HP le falta a cada pokemón") 
 
@@ -149,27 +160,27 @@ switch (numero) { // switch para cada caso de: cantidad de pokemon del usuario/e
         hp6 = prompt(`A tu ${pokemones[5].nombre} le falta:`)
         // ciclo while para validar que se ingresen numeros y que a la vez no pregunte denuevo por los datos que sí se ingresaron correctamente.
         while (isNaN(hp1)) {
-            alert(`ingresaste datos no validos a tu pokemon n°${pokemones[0].posicion} `)
+            alert(`Tienes ${pokemones.length} pokemones, pero ingresaste datos no válidos a tu pokemon n°${pokemones[0].posicion}`)
             hp1 = prompt(`A tu ${pokemones[0].nombre} le falta:`)
         }
         while (isNaN(hp2)) {
-            alert(`ingresaste datos no validos a tu pokemon n°${pokemones[1].posicion} `)
+            alert(`Tienes ${pokemones.length} pokemones, pero ingresaste datos no válidos a tu pokemon n°${pokemones[1].posicion}`)
             hp2 = prompt(`A tu ${pokemones[1].nombre} le falta:`)
         }
         while (isNaN(hp3)) {
-            alert(`ingresaste datos no validos a tu pokemon n°${pokemones[2].posicion} `)
+            alert(`Tienes ${pokemones.length} pokemones, pero ingresaste datos no válidos a tu pokemon n°${pokemones[2].posicion}`)
             hp3 = prompt(`A tu ${pokemones[2].nombre} le falta:`)
         }
         while (isNaN(hp4)) {
-            alert(`ingresaste datos no validos a tu pokemon n°${pokemones[3].posicion} `)
+            alert(`Tienes ${pokemones.length} pokemones, pero ingresaste datos no válidos a tu pokemon n°${pokemones[3].posicion}`)
             hp4 = prompt(`A tu ${pokemones[3].nombre} le falta:`)
         }
         while (isNaN(hp5)) {
-            alert(`ingresaste datos no validos a tu pokemon n°${pokemones[4].posicion} `)
+            alert(`Tienes ${pokemones.length} pokemones, pero ingresaste datos no válidos a tu pokemon n°${pokemones[4].posicion}`)
             hp5 = prompt(`A tu ${pokemones[4].nombre} le falta:`)
         }
         while (isNaN(hp6)) {
-            alert(`ingresaste datos no validos a tu pokemon n°${pokemones[5].posicion} `)
+            alert(`Tienes ${pokemones.length} pokemones, pero ingresaste datos no válidos a tu pokemon n°${pokemones[5].posicion}`)
             hp6 = prompt(`A tu ${pokemones[5].nombre} le falta:`)
         }
         break
@@ -181,23 +192,23 @@ switch (numero) { // switch para cada caso de: cantidad de pokemon del usuario/e
         hp5 = prompt(`A tu ${pokemones[4].nombre} le falta:`)
 
         while (isNaN(hp1)) {
-            alert(`ingresaste datos no validos a tu pokemon n°${pokemones[0].posicion} `)
+            alert(`Tienes ${pokemones.length} pokemones, pero ingresaste datos no válidos a tu pokemon n°${pokemones[0].posicion}`)
             hp1 = prompt(`A tu ${pokemones[0].nombre} le falta:`)
         }
         while (isNaN(hp2)) {
-            alert(`ingresaste datos no validos a tu pokemon n°${pokemones[1].posicion} `)
+            alert(`Tienes ${pokemones.length} pokemones, pero ingresaste datos no válidos a tu pokemon n°${pokemones[1].posicion}`)
             hp2 = prompt(`A tu ${pokemones[1].nombre} le falta:`)
         }
         while (isNaN(hp3)) {
-            alert(`ingresaste datos no validos a tu pokemon n°${pokemones[2].posicion} `)
+            alert(`Tienes ${pokemones.length} pokemones, pero ingresaste datos no válidos a tu pokemon n°${pokemones[2].posicion}`)
             hp3 = prompt(`A tu ${pokemones[2].nombre} le falta:`)
         }
         while (isNaN(hp4)) {
-            alert(`ingresaste datos no validos a tu pokemon n°${pokemones[3].posicion} `)
+            alert(`Tienes ${pokemones.length} pokemones, pero ingresaste datos no válidos a tu pokemon n°${pokemones[3].posicion}`)
             hp4 = prompt(`A tu ${pokemones[3].nombre} le falta:`)
         }
         while (isNaN(hp5)) {
-            alert(`ingresaste datos no validos a tu pokemon n°${pokemones[4].posicion} `)
+            alert(`Tienes ${pokemones.length} pokemones, pero ingresaste datos no válidos a tu pokemon n°${pokemones[4].posicion}`)
             hp5 = prompt(`A tu ${pokemones[4].nombre} le falta:`)
         }
         break
@@ -208,19 +219,19 @@ switch (numero) { // switch para cada caso de: cantidad de pokemon del usuario/e
         hp4 = prompt(`A tu ${pokemones[3].nombre} le falta:`)
 
         while (isNaN(hp1)) {
-            alert(`ingresaste datos no validos a tu pokemon n°${pokemones[0].posicion} `)
+            alert(`Tienes ${pokemones.length} pokemones, pero ingresaste datos no válidos a tu pokemon n°${pokemones[0].posicion}`)
             hp1 = prompt(`A tu ${pokemones[0].nombre} le falta:`)
         }
         while (isNaN(hp2)) {
-            alert(`ingresaste datos no validos a tu pokemon n°${pokemones[1].posicion} `)
+            alert(`Tienes ${pokemones.length} pokemones, pero ingresaste datos no válidos a tu pokemon n°${pokemones[1].posicion}`)
             hp2 = prompt(`A tu ${pokemones[1].nombre} le falta:`)
         }
         while (isNaN(hp3)) {
-            alert(`ingresaste datos no validos a tu pokemon n°${pokemones[2].posicion} `)
+            alert(`Tienes ${pokemones.length} pokemones, pero ingresaste datos no válidos a tu pokemon n°${pokemones[2].posicion}`)
             hp3 = prompt(`A tu ${pokemones[2].nombre} le falta:`)
         }
         while (isNaN(hp4)) {
-            alert(`ingresaste datos no validos a tu pokemon n°${pokemones[3].posicion} `)
+            alert(`Tienes ${pokemones.length} pokemones, pero ingresaste datos no válidos a tu pokemon n°${pokemones[3].posicion}`)
             hp4 = prompt(`A tu ${pokemones[3].nombre} le falta:`)
         }
         break
@@ -230,15 +241,15 @@ switch (numero) { // switch para cada caso de: cantidad de pokemon del usuario/e
         hp3 = prompt(`A tu ${pokemones[2].nombre} le falta:`)
 
         while (isNaN(hp1)) {
-            alert(`ingresaste datos no validos a tu pokemon n°${pokemones[0].posicion} `)
+            alert(`Tienes ${pokemones.length} pokemones, pero ingresaste datos no válidos a tu pokemon n°${pokemones[0].posicion}`)
             hp1 = prompt(`A tu ${pokemones[0].nombre} le falta:`)
         }
         while (isNaN(hp2)) {
-            alert(`ingresaste datos no validos a tu pokemon n°${pokemones[1].posicion} `)
+            alert(`Tienes ${pokemones.length} pokemones, pero ingresaste datos no válidos a tu pokemon n°${pokemones[1].posicion}`)
             hp2 = prompt(`A tu ${pokemones[1].nombre} le falta:`)
         }
         while (isNaN(hp3)) {
-            alert(`ingresaste datos no validos a tu pokemon n°${pokemones[2].posicion} `)
+            alert(`Tienes ${pokemones.length} pokemones, pero ingresaste datos no válidos a tu pokemon n°${pokemones[2].posicion}`)
             hp3 = prompt(`A tu ${pokemones[2].nombre} le falta:`)
         }
         break
@@ -247,11 +258,11 @@ switch (numero) { // switch para cada caso de: cantidad de pokemon del usuario/e
         hp2 = prompt(`a tu ${pokemones[1].nombre} le falta:`)
 
         while (isNaN(hp1)) {
-            alert(`ingresaste datos no validos a tu pokemon n°${pokemones[0].posicion} `)
+            alert(`Tienes ${pokemones.length} pokemones, pero ingresaste datos no válidos a tu pokemon n°${pokemones[0].posicion}`)
             hp1 = prompt(`A tu ${pokemones[0].nombre} le falta:`)
         }
         while (isNaN(hp2)) {
-            alert(`ingresaste datos no validos a tu pokemon n°${pokemones[1].posicion} `)
+            alert(`Tienes ${pokemones.length} pokemones, pero ingresaste datos no válidos a tu pokemon n°${pokemones[1].posicion}`)
             hp2 = prompt(`A tu ${pokemones[1].nombre} le falta:`)
         }
         break
@@ -259,7 +270,7 @@ switch (numero) { // switch para cada caso de: cantidad de pokemon del usuario/e
         hp1 = prompt(`A tu ${pokemones[0].nombre} le falta:`)
 
         while (isNaN(hp1)) {
-            alert(`ingresaste datos no validos a tu pokemon n°${pokemones[0].posicion} `)
+            alert(`Tienes ${pokemones.length} pokemones, pero ingresaste datos no válidos a tu pokemon n°${pokemones[0].posicion}`)
             hp1 = prompt(`A tu ${pokemones[0].nombre} le falta:`)
         }
         break
