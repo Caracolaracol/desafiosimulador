@@ -43,6 +43,7 @@ let nombre6
 let nivel6
 let posicion6
 
+//switch para ingresar los datos de cada pokemon
 switch(numero) {
     case 1:
         nombre1 = prompt("Ingrese cual es tu primer pokemon(tal vez un Pikachu? un Eevee? o cualquier otro 🥰 )")
@@ -121,7 +122,7 @@ switch(numero) {
         break
 }
 
-
+// clase pokemon, tres elementos
 class Pokemon {
     constructor(nombre, nivel, posicion){
         this.nombre = nombre
