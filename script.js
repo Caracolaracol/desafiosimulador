@@ -1,9 +1,11 @@
-// Desafio 1
+// Desafio 1----
 // simulador interactivo
 // pedir datos al usuario, hacer una pequeña modificación, mostrar el resultado en la consola mediante una SpeechRecognitionAlternative, cualquier cosa que pida al usuario, excepto una calculadora
 // integrar variables, condicionales, ciclos y funciones
-
 // Mi desafío es el siguiente: Se privatizó el centro pokemon, ahora curar a tus pokemón tiene un costo, se pedirá al usuario cuántos pokemones tiene, de que nivel son y se calculará el valor de la cura.
+
+
+// Desafío 3, complementario - incorporar arrays:
 
 alert("Se privatizó el centro pokemon, ahora curar a tus pokemón tiene un costo! (10 dolares por pokemon, 2 dolares por HP recuperado)") // Actualmente el valor está a 2 dólares el HP, más un costo base de 10 dólares por pokemón.
 let repetir = true
